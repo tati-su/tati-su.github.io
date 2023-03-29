@@ -1,0 +1,130 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Roboto+Condensed&display=swap');
+
+.header {
+  text-align: center;
+  padding: 50;
+}
+
+.header2 {
+    text-align: center;
+    padding: 10;
+}
+
+.title {
+  font-size: 4em;
+  font-family:'Alkatra', cursive;
+  padding: 0;
+  color: white;
+}
+
+.nav {
+  font-size: 2em;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white
+}
+
+body {
+    background-image: url("medsky.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed; s
+    background-size: cover;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+  }
+
+/*projects page*/
+.projectcontainer {
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax (100px, auto);
+    grid-template-areas: 
+    "a b"
+    "c d";
+    align-items:start;
+    padding-left: 0px;
+    padding-top: 100px;
+}
+
+.item1 {
+    grid-area: a;
+  }
+  .item2 {
+    grid-area: b;
+  }
+  .item3 {
+    grid-area: c;
+  }
+  .item4 {
+    grid-area: d;
+  }
+
+/*about page*/
+.rightcolumn {
+    float: right;
+    width: 76%;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .card {
+    background-color: white;
+    padding:20px;
+    margin-top: 8px;
+    border-radius: 10px;
+  }
+  
+  .leftcolumn {
+    float: left;
+    width: 21%;
+    padding: 10px;
+    border-radius: 10px;
+  }
+   
+  .content after {
+    content: "";
+    display: table;
+    clear: both;
+    column-count: 2; 
+  }
+
+  .img {
+
+    max-width: 10px;
+    max-height: 20px;
+  }
+
+  #button1 {
+    font-size: 20px;
+    border-radius: 10px; 
+  }
+
+  #button2 {
+    font-size: 20px;
+    border-radius: 10px; 
+    margin-left: 10px;
+  }
+
+.icon1 {
+  width: 50px;
+  height: 50px;
+}
+
+.icon2 {
+  width: 50px;
+  height: 50px;
+}
+
+#projectNames {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
